@@ -1,6 +1,6 @@
 from page_objects.HomePage import HomePage
 from page_objects.RegisterPage import RegisterPage
-from config.testconf import pytest_session_start, pytest_session_finish
+from tests.config.testconf import pytest_session_start, pytest_session_finish
 
 
 def test_case_cookie(pytest_session_start, pytest_session_finish):
