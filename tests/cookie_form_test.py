@@ -10,3 +10,4 @@ def test_case_cookie(pytest_session_start, pytest_session_finish):
     register_page = RegisterPage()
     register_page.cookie_accept()
     assert register_page.check_if_cookie_form_closed(), 'cookie form not closed'
+    print('hello')
