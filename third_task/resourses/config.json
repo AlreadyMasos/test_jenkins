@@ -1,0 +1,45 @@
+{ "browser" : {
+    "Google Chrome" : "Chrome",
+    "Mozilla Firefox" : "Firefox"
+},
+  "links": {
+    "main_page" : "https://demoqa.com/",
+    "sample_page" : "https://demoqa.com/sample"
+  },
+  "locators" : {
+
+  },
+  "alert_text" : {
+    "first" : "You clicked a button",
+    "second" : "Do you confirm action?",
+    "third" : "Please enter your name",
+    "fourth" : "You entered "
+  },
+  "iframe_text": {
+    "parent" : "Parent frame",
+    "child" : "Child Iframe"
+  },
+  "users_data": {
+    "1" :
+    {
+      "name" : "Jon",
+      "surname" : "Snow",
+      "email" : "knownothing@gmail.com",
+      "age" : "30",
+      "salary" : "3000",
+      "department" : "alpha"
+    },
+    "2":
+    {
+      "name" : "Buttercup",
+      "surname" : "Cumbersnatch",
+      "email" : "BudapestCandygram@mail.ru",
+      "age" : "41",
+      "salary" : "2000",
+      "department" : "beta"
+    }
+  },
+  "test_data": {
+    "my_age" : "22"
+  }
+}
